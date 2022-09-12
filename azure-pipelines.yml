@@ -10,6 +10,7 @@ resources:
   - repository: _StepScraper
     type: github
     ref: main
+    endpoint: main
     name: StepScraper
 
 pool:

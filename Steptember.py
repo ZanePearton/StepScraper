@@ -25,9 +25,10 @@ while True:
     # print (r.text)
     output = str (r.text);
     # str output = (r.text);
-    with open('Steptember.txt', 'w') as f:
+    with open('Steptember.html', 'w') as f:
         #write 
         f.write(output)
+
     #break
     if count >= max_count:
         #exceeds max count break

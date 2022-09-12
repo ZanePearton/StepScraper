@@ -12,8 +12,7 @@ max_count = 150;
 while True:
     #inscrements of 50
     #count concat with str
-    URL = "https://www.steptember.org.au/funraisin/viewlump/4688?offset=";
-    
+    URL = "https://www.steptember.org.au/funraisin/viewlump/4688?offset=";  
     #sleep 1 second 
     sleep (1);
     #concat url with path
@@ -28,6 +27,7 @@ while True:
     with open('Steptember.html', 'w') as f:
         #write 
         f.write(output)
+        f.truncate()
     count += 50
     #break
     if count >= max_count:

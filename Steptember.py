@@ -14,7 +14,7 @@ while True:
     #count concat with str
     URL = "https://www.steptember.org.au/funraisin/viewlump/4688?offset=";  
     #sleep 1 second 
-    sleep (2);
+    sleep (5);
     #concat url with path
     con_url = (URL + str (count)); 
     #print path

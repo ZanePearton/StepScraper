@@ -7,14 +7,14 @@ from time import sleep
 #min Count 
 count = 0; 
 #max count 
-max_count = 150; 
+max_count = 15000; 
 #while true do the following 
 while True:
     #inscrements of 50
     #count concat with str
     URL = "https://www.steptember.org.au/funraisin/viewlump/4688?offset=";  
     #sleep 1 second 
-    sleep (1);
+    sleep (2);
     #concat url with path
     con_url = (URL + str (count)); 
     #print path

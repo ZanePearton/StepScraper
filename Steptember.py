@@ -21,13 +21,13 @@ while True:
     print (con_url)
     #send request
     r = requests.get(con_url);
-    # print (r.text)
-    output = str (r.text);
+    print (r.text)
+    # output = str (r.text);
     # str output = (r.text);
-    with open('Steptember.html', 'w') as f:
-        #write 
-        f.write(output)
-        f.truncate()
+    # with open('Steptember.html', 'w') as f:
+    #     #write 
+    #     f.write(output)
+    #     f.truncate()
     count += 50
     #break
     if count >= max_count:

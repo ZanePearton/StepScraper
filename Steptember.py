@@ -7,7 +7,7 @@ from time import sleep
 #min Count 
 count = 0; 
 #max count 
-max_count = 15000; 
+max_count = 20000; 
 #while true do the following 
 while True:
     #inscrements of 50

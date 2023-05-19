@@ -18,5 +18,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          python Steptember.py
+          sudo pip install requests
+          cat Steptember.py
+          python3 Steptember.py
       - run: echo "🍏 This job's status is ${{ job.status }}."

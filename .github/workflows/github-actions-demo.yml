@@ -1,4 +1,5 @@
 name: GitHub Actions Demo
+uses: actions/setup-python@v4.6.0
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:

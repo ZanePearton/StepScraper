@@ -39,7 +39,7 @@ The pipeline follows these main steps:
 1. Specify the Python version to use.
 2. Install the dependencies listed in `requirements.txt`.
 3. Run the `pytest` command to execute all the test cases.
-4. Run the `Steptember.py` script.
+4. Run the `StepScraper.py` script.
 
 To use this pipeline, ensure that you've set up an Azure DevOps environment and have configured a pipeline using the included configuration file.
 
